@@ -17,6 +17,10 @@ const Navbar = () => {
       url: `/`,
     },
     {
+      name: `About`,
+      url: `/about`,
+    },
+    {
       name: `Commands`,
       url: `/commands`,
     },
@@ -26,7 +30,7 @@ const Navbar = () => {
     },
     {
       name: `Invite Now`,
-      url: `https://discord.com/api/oauth2/authorize?client_id=1091126594006949978&permissions=8&scope=applications.commands%20bot`,
+      url: `https://discord.com/api/oauth2/authorize?client_id=${user?.id}&permissions=1090182971249&scope=bot%20applications.commands`,
       target: true,
     },
     {

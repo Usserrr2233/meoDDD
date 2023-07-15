@@ -1,3 +1,3 @@
 export default {
-  baseurl: `https://meowsic.hop.sh/`,
+  baseurl: `https://meowsic.lrmn.repl.co`,
 };
